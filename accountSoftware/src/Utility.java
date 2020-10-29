@@ -77,7 +77,7 @@ public class Utility {
      */
     private static String getInput(int lengthOfInput) {
         String input;
-        while (true) {
+        for (;;) {
             input = scanner.next();
             if (input.length() > lengthOfInput) {
                 System.out.print("          False input, please input a value not longer than " + lengthOfInput + ": ");
